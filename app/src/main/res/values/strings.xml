@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Relative Layout Demo</string>
+
+    <string name="text_name">Restaurant El Bajio</string>
+    <string name="text_job">Comida Internacional</string>
+    <string name="text_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue neque, maximus vitae mattis et, tristique id leo. Aenean et commodo odio. Integer vel maximus dolor, egestas faucibus ipsum. Vestibulum ac velit nisl. Nullam sagittis vitae neque at sagittis. Aliquam aliquam mi diam, id venenatis tortor gravida at. In malesuada condimentum est, vestibulum congue sapien eleifend eget. Phasellus tempor, nunc sit amet lobortis ullamcorper, elit eros dapibus elit, at semper quam ipsum ac mauris. Donec auctor, ex eget congue molestie, justo lacus fermentum velit, a condimentum tellus dui quis lectus.
+
+        Curabitur porttitor libero ut lacus commodo molestie. Sed non erat vitae ipsum pulvinar gravida quis blandit nulla. Nunc non urna quis quam laoreet mattis et non dui. Nullam ut dapibus nibh, ac lacinia ante. Curabitur a nibh ac massa commodo pellentesque a at leo. In suscipit elementum tellus, nec vehicula dui mollis sed. Nam sed rhoncus ligula. Sed quis ex in dui lobortis viverra. Pellentesque bibendum massa sed elit egestas efficitur. Duis placerat lacus feugiat eros tincidunt, non lobortis mauris porta. Proin quis erat ac est accumsan feugiat. Sed nec ex eleifend, porttitor tellus luctus, condimentum diam. Donec tristique neque vitae orci placerat suscipit. Nullam at egestas orci, eget molestie nibh.
+
+        Proin tincidunt interdum arcu id lobortis. Etiam tortor massa, sodales in felis sit amet, condimentum dignissim enim. Fusce id massa vehicula, ullamcorper odio quis, auctor leo. Suspendisse potenti. Aliquam vitae quam facilisis, semper ex ac, sagittis est. Fusce fringilla ultricies nisl, ac mattis justo pharetra nec. Vestibulum vulputate eleifend ex, eu volutpat leo luctus ut. Fusce sagittis fringilla lacus, sit amet vulputate orci pellentesque ut. Morbi vehicula sapien risus, id fermentum nulla commodo a. Vestibulum laoreet nisi ante, sed semper dolor aliquam vitae. Cras tellus enim, pulvinar ut enim et, feugiat rutrum purus. Praesent ut purus quam.</string>
+
+
+    <string name="button_comment">Comentar</string>
+    <string name="button_share">Compartir</string>
+
+
+</resources>

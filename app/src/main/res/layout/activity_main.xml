@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <ImageView
+                android:id="@+id/preview"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/img_restaurant"
+                android:scaleType="centerCrop"/>
+
+        <ImageButton
+                android:id="@+id/favorite"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@id/preview"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_button_favorite"
+                android:tint="@color/button_overlay"
+                android:background="@null"/>
+
+        <TextView
+                android:id="@+id/title"
+                android:text="@string/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/preview"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:textColor="#000"
+                android:textSize="@dimen/font_title"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/category"
+                android:text="@string/text_job"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="@dimen/font_category" />
+
+        <Button
+                android:id="@+id/button_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="@string/button_comment"
+                android:drawableStart="@drawable/ic_button_comment"
+                android:drawableLeft="@drawable/ic_button_comment"
+                android:drawablePadding="8dp" />
+
+        <Button
+                android:id="@+id/button_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category"
+                android:layout_toRightOf="@id/button_comment"
+                android:layout_toEndOf="@id/button_comment"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/button_share"
+                android:drawableStart="@drawable/ic_button_share"
+                android:drawableLeft="@drawable/ic_button_share"
+                android:drawablePadding="8dp" />
+
+        <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_share"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/text_content"
+                android:textColor="@color/text_color"/>
+
+    </RelativeLayout>
+
+</ScrollView>
